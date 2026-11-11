@@ -12,18 +12,18 @@ Mã học viên là mã lớp cấp; không cần ghi họ tên trong report n�
 
 Ghi tên ZIP đúng như file trong `submissions/` và số ảnh đã vẽ, Save. Chưa làm hoặc export lỗi thì ghi `chưa có`, không tạo ZIP rỗng. Cột điểm là điểm tối đa của task, **không phải điểm tự chấm**.
 
-| Task            | File ZIP đúng tên | Hoàn thành mấy ảnh | Điểm tối đa (coach chấm sau) |
-| --------------- | ----------------- | -----------------: | ---------------------------: |
-| easy_semantic   | easy_semantic.zip |              3 / 3 |                           20 |
-| medium_instance | medium_instance   |              3 / 3 |                           32 |
-| hard_panoptic   | hard_panoptic.zip |              2 / 2 |                           30 |
-| cp1_holes       | chưa hoàn thành   |              1 / 1 |                            3 |
-| cp2_slice       | chưa hoàn thành   |              0 / 1 |                            3 |
-| cp5_occlusion   | chưa hoàn thành   |              0 / 1 |                            3 |
-| cp3_thin        | chưa hoàn thành   |              0 / 1 |                            3 |
-| cp4_curb        | chưa hoàn thành   |              0 / 1 |                            3 |
-| cp6_coverage    | chưa hoàn thành   |              0 / 1 |                            3 |
-| **Tổng tối đa** |                   |                    |                      **100** |
+| Task            | File ZIP đúng tên   | Hoàn thành mấy ảnh | Điểm tối đa (coach chấm sau) |
+| --------------- | ------------------- | -----------------: | ---------------------------: |
+| easy_semantic   | easy_semantic.zip   |              3 / 3 |                           20 |
+| medium_instance | medium_instance.zip |              3 / 3 |                           32 |
+| hard_panoptic   | hard_panoptic.zip   |              2 / 2 |                           30 |
+| cp1_holes       | chưa hoàn thành     |              1 / 1 |                            3 |
+| cp2_slice       | chưa hoàn thành     |              0 / 1 |                            3 |
+| cp5_occlusion   | chưa hoàn thành     |              0 / 1 |                            3 |
+| cp3_thin        | chưa hoàn thành     |              0 / 1 |                            3 |
+| cp4_curb        | chưa hoàn thành     |              0 / 1 |                            3 |
+| cp6_coverage    | chưa hoàn thành     |              0 / 1 |                            3 |
+| **Tổng tối đa** |                     |                    |                      **100** |
 
 Nếu export lỗi, ghi task, dữ liệu đã Save đến đâu và lỗi đã báo coach.
 
@@ -42,7 +42,7 @@ Chọn một lỗi **có thật** trong bài. Nếu công cụ lỗi khiến b�
 
 - Task/ảnh/vùng:hard_panoptic/ảnh:000000350023.jpg/vùng xe ô tô phía trên lệch trái
 - Lỗi thuộc loại: sai lớp / thiếu-thừa vật / gộp-tách / biên / phủ vùng / khác: bị gộp 2 object car với nhau
-- Bằng chứng tôi nhìn thấy:
+- Bằng chứng tôi nhìn thấy:Nhìn thấy rõ khe hở và đường tiếp giáp giữa 2 thân xe, nhưng trong danh sách Objects chỉ có duy nhất 1 shape car bao trùm cả 2 xe
 - Quy tắc và hành động sửa: không để 2 đối tượng chung 1 object nên là đã tách nó ra làm 2 object riêng biệt
 - Sau sửa đã Save và export lại chưa? đã save và export lại
 
